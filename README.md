@@ -19,8 +19,8 @@ I'm not planing on installing this linux from a LiveDVD (the current way to full
 
 | File to edit | What to add & where |
 |---|---|
-| <code>USB/boot/grub/grub.cfg</code> | <code>set timeout=1</code> replace what says <code>set timeout=30</code> |
-|  | <code>noprompt cdrom-detect/try-usb=true persistant acpi=off quit splash ---</code> where it says <code>persistant ---</code> |
+| <code>USB/boot/grub/grub.cfg</code> | <code>set timeout=0</code> replace what says <code>set timeout=30</code> |
+|  | <code>noprompt persistant acpi=off quit splash ---</code> where it says <code>persistant ---</code> |
 |  |
 | <code>/etc/default/grub/</code> | <code>GRUB_SAVEDEFAULT=true</code> above <code>GRUB_TIMEOUT=0</code> & add: <code>GRUB_HIDDEN_TIMEOUT=0</code> & <code>GRUB_HIDDEN_TIMEOUT_QUIET=0</code> after <code>GRUB_TIMEOUT=0</code> as each add as a new line |
 |---|---|
