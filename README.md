@@ -151,6 +151,16 @@ wget -O droidcam_latest.zip https://files.dev47apps.net/linux/droidcam_2.1.3.zip
 <code>sudo apt-get install adb</code>
 
 
+
+</br></br>
+
+## Close the Konsole
+- &nbsp;&nbsp; Close the terminal program Konsole (click the "x" in top right of window box).
+
+- &nbsp;&nbsp; Now reopen it again to begin with the last few installing steps.
+ 
+
+
 </br></br>
 
 ## Telegram or Signal
@@ -179,10 +189,18 @@ wget -O droidcam_latest.zip https://files.dev47apps.net/linux/droidcam_2.1.3.zip
 
 </br></br>
 
+## Discover the App-Store
+- &nbsp;&nbsp; Now that you have flatpak & snaps, there should be more options in the Discover store. Go find your fun apps, games, and known flatpaks before continuing to the finial upgrade.
+
+
+</br></br>
+
 ## Edit & Upgrade
 - &nbsp;&nbsp; Edit the theme & do the little things in the settings (main linux settings & browser settings). Once you are done getting your desktop feeling and looking good, insert this into the terminal:
 </br></br>
-<code>sudo apt-get upgrade</code> </br></br>&nbsp;&nbsp; **This may take a while and there's a chance it'll fail the first time. If it fails, it'll have you retype the command <code>sudo apt-get</code> then the special bit stated on screen (copy and paste with mouse) then click the "Enter" key wait for finish then reinsert <code>sudo apt-get upgrade</code> & hit the "Enter" key again.**
+<code>sudo apt-get update</code>
+</br></br>
+<code>sudo apt-get upgrade</code> </br></br>&nbsp;&nbsp; **This may take quite some time and there's a chance it'll fail the first time. If it does fail, it'll have you retype the command <code>sudo apt-get</code> then the special bit stated on screen (<i>copy and paste with mouse</i>) then click the "Enter" key wait for finish then reinsert <code>sudo apt-get upgrade</code> & hit the "Enter" key again.**
 
 
  
