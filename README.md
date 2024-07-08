@@ -168,7 +168,12 @@ wget -O droidcam_latest.zip https://files.dev47apps.net/linux/droidcam_2.1.3.zip
 
 <code>sudo snap install telegram-desktop</code>
 
- </br>
+
+
+</br></br>
+
+## Flatpak for More
+- &nbsp;&nbsp; Flatpaks are how many of the older ubuntu and pre-21 upgrade applications are being saved for future use. Many applications broke after the 21 upgrade with ubuntu and most linux distros. Flatpaking is one way to revive the old applications of linux wihtout majorly patching the program. This is why Flatpak's have growing in popularity the past few years.
  
 &nbsp;&nbsp; Visit: <a href="https://flathub.org/setup/Kubuntu" target="_blank" rel="noopener noreferrer">flathub.org/setup/Kubuntu</a> to get the following commands.
 
