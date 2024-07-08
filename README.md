@@ -181,7 +181,7 @@ wget -O droidcam_latest.zip https://files.dev47apps.net/linux/droidcam_2.1.3.zip
 
 <code>sudo apt install plasma-discover-backend-flatpak</code>
 
-<code>sudo apt install plasma-discover-flatpak-backend</code>
+<code>sudo apt install plasma-discover-flatpak-backend</code> </br>&nbsp;&nbsp; **this backend one, almost never works**
 
 <code>flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo</code>
 
