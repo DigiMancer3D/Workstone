@@ -144,7 +144,7 @@ wget -O droidcam_latest.zip https://files.dev47apps.net/linux/droidcam_2.1.3.zip
 <code>sudo apt install linux-headers-&#96;uname -r&#96; gcc make</code>
 
 <code>sudo ./install-video</code>
-</br>&nbsp;&nbsp; **may need to answer qeustions about a key, both answers are 0**
+</br>&nbsp;&nbsp; **you will need to know where your os keys are located**
 
 <code>sudo ./install-sound</code>
 
